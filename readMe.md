@@ -13,13 +13,13 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<sub>Çeviri: <a href="https://www.linkedin.com/in/erenseyfi/" target="_blank">Eren Seyfi</a><br>
  Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> Ekim, 2020</small></sub>
 
 </div>
 
-[Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
+[1.Gün >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
 
 | # Day |                                                           Topics                                                            |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------: |
@@ -55,12 +55,30 @@
 | 29    |                                            [Keşfetmek](./29_explore/29_explore.md)                                            |
 | 30    |                                      [Sonuçlar](./30_conclusions/30_conclusions.md)                                      |
 
-🧡🧡🧡 HAPPY CODING 🧡🧡🧡
+🧡🧡🧡 MUTLU KODLAMA 🧡🧡🧡
 
 <div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<small>Daha fazla eğitim materyali oluşturması için <strong>yazar</strong>'ı destekleyin</small> <br />
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
+
+<div>
+Banka adı: First Century Bank
+
+Banka adresi: 1731 N Elm St  Commerce, GA 30529 USA
+
+Routing ABA Numarası: 061120084
+
+Hesap Numarası: 4027389169658
+
+Hesap Türü: CHECKING
+
+Lehtar Adı: Eren Seyfi
+
+</div>  
+
+
+
 
 ---
 
