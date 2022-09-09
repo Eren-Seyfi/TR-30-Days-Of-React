@@ -61,32 +61,22 @@
 <small>Daha fazla eğitim materyali oluşturması için <strong>yazar</strong>'ı destekleyin</small> <br />
 
   
-**TR**
-Banka adı: First Century Bank
 
-Banka adresi: 1731 N Elm St  Commerce, GA 30529 USA
-
-Routing ABA Numarası: 061120084
-
-Hesap Numarası: 4027389169658
-
-Hesap Türü: CHECKING
-
-Lehtar Adı: Eren Seyfi
+ <small>**TR**</small><br />
+Banka adı: First Century Bank<br />
+Banka adresi: 1731 N Elm St  Commerce, GA 30529 USA<br />
+Routing ABA Numarası: 061120084<br />
+Hesap Numarası: 4027389169658<br />
+Hesap Türü: CHECKING<br />
+Lehtar Adı: Eren Seyfi<br />
   
-**USA**
-  Bank name:
-First Century Bank
-
-Bank address: 1731 N Elm St  Commerce, GA 30529 USA
-
-Routing (ABA): 061120084
-
-Account number: 4027389169658
-
-Account type: CHECKING
-
-Beneficiary name: Eren Seyfi
+ <small>**USA**</small><br />
+Bank name: First Century Bank<br />
+Bank address: 1731 N Elm St  Commerce, GA 30529 USA<br />
+Routing (ABA): 061120084<br />
+Account number: 4027389169658<br />
+Account type: CHECKING<br />
+Beneficiary name: Eren Seyfi<br />
 
 </div>
 
