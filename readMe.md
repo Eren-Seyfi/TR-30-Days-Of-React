@@ -59,10 +59,9 @@
 
 <div>
 <small>Daha fazla eğitim materyali oluşturması için <strong>yazar</strong>'ı destekleyin</small> <br />
-<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
 
-<div>
+  
+**TR**
 Banka adı: First Century Bank
 
 Banka adresi: 1731 N Elm St  Commerce, GA 30529 USA
@@ -74,8 +73,23 @@ Hesap Numarası: 4027389169658
 Hesap Türü: CHECKING
 
 Lehtar Adı: Eren Seyfi
+  
+**USA**
+  Bank name:
+First Century Bank
 
-</div>  
+Bank address: 1731 N Elm St  Commerce, GA 30529 USA
+
+Routing (ABA): 061120084
+
+Account number: 4027389169658
+
+Account type: CHECKING
+
+Beneficiary name: Eren Seyfi
+
+</div>
+
 
 
 
