@@ -14,6 +14,7 @@
   </a>
 
 <sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+ Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> Ekim, 2020</small></sub>
 
 </div>
