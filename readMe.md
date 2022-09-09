@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <h1> 30 Days Of React</h1>
+  <h1> 30 Günlük React</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -14,7 +14,7 @@
   </a>
 
 <sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small></sub>
+<small> Ekim, 2020</small></sub>
 
 </div>
 
@@ -22,7 +22,7 @@
 
 | # Day |                                                           Topics                                                            |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------: |
-| 00    | [Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup) |
+| 00    | [Introduction](#introduction)<br> [Repo Nasıl Kullanılır](#how-to-use-repo)<br> [Gereksinimler](#requirements)<br> [Kurmak](#setup) |
 | 01    |                      [JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
 | 02    |                     [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
 | 03    |                                     [Setting Up](./03_Day_Setting_Up/03_setting_up.md)                                      |
