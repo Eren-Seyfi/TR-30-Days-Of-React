@@ -86,74 +86,74 @@ Beneficiary name: Eren Seyfi<br />
 
 ---
 
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [How to Use Repo](#how-to-use-repo)
-  - [Star and Fork this Repo](#star-and-fork-this-repo)
-  - [Clone your Fork](#clone-your-fork)
-  - [Create a New Branch](#create-a-new-branch)
-  - [Structure Exercise Solutions](#structure-exercise-solutions)
-  - [Commit Exercise Solutions](#commit-exercise-solutions)
-  - [Update your Fork Daily](#update-your-fork-daily)
-- [Setup](#setup)
-  - [Install Node.js](#install-nodejs)
-  - [Browser](#browser)
+- [Giriş](#introduction)
+- [Gereksinimler](#requirements)
+- [Repo Nasıl Kullanılır](#how-to-use-repo)
+  - [Bu Repo'yu Yıldızla ve Forkla](#star-and-fork-this-repo)
+  - [Fork klonlayın](#clone-your-fork)
+  - [Yeni Şube Oluştur](#create-a-new-branch)
+  - [Yapı Egzersiz Çözümleri](#structure-exercise-solutions)
+  - [Egzersiz Çözümlerini Taahhüt Edin](#commit-exercise-solutions)
+  - [Fork'unuzu Günlük Güncelleyin](#update-your-fork-daily)
+- [Kurmak](#setup)
+  - [Node.js'yi yükleyin](#install-nodejs)
+  - [Tarayıcı](#browser)
     - [Installing Google Chrome](#installing-google-chrome)
     - [Opening Google Chrome Console](#opening-google-chrome-console)
     - [Writing Code on Browser Console](#writing-code-on-browser-console)
       - [Console.log](#consolelog)
-      - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-      - [Comments](#comments)
-      - [Syntax](#syntax)
+      - [Birden Çok Argümanlı Console.log](#consolelog-with-multiple-arguments)
+      - [Yorumlar](#comments)
+      - [Sözdizimi](#syntax)
     - [Arithmetics](#arithmetics)
-  - [Code Editor](#code-editor)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-    - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+  - [Kod Düzenleyici](#code-editor)
+    - [Visual Studio Code'u Yükleme](#installing-visual-studio-code)
+    - [Visual Studio Kodu Nasıl Kullanılır](#how-to-use-visual-studio-code)
 
 ---
 
-## Introduction
+## Giriş
 
-**Congratulations** on deciding to participate in 30 days of React programming challenge. In this challenge you will learn everything you need to use to develop a React application. In the end of the challenge you will get a 30DaysOfReact programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/thirtydaysofreact).
+**Tebrikler**30 günlük React programlama yarışmasına katılmaya karar verme üzerine. Bu meydan okumada, bir React uygulaması geliştirmek için kullanmanız gereken her şeyi öğreneceksiniz. Yarışmanın sonunda 30DaysOfReact programlama sınavı tamamlama sertifikası alacaksınız. Yardıma ihtiyacınız olursa veya başkalarına yardım etmek isterseniz [telgraf grubuna](https://t.me/thirtydaysofreact) katılabilirsiniz.
 
-**A 30DaysOfReact** challenge is a guide for both beginners and advanced JavaScript and React developers. Welcome to 30 Days Of React. React is a JavaScript library. I enjoy using and teaching React and I hope you will do so too.
-In this step by step 30 Days React challenge, you will learn React which is one of most popular user interface JavaScript libraries.
-React can do everything that JavaScript can do. React can be used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_**.
-I believe you will learn quite a lot in the next 30 days and your programming and problem solving skills will also be improved significantly.
+**30 Günlük React** meydan okuma, hem yeni başlayanlar hem de ileri düzey JavaScript ve React geliştiricileri için bir kılavuzdur. 30 Days of React'e hoş geldiniz. React bir JavaScript kütüphanesidir. React'i kullanmaktan ve öğretmekten zevk alıyorum ve umarım siz de öyle yaparsınız.
+Bu adım adım 30 Days React meydan okumasında, en popüler kullanıcı arayüzü JavaScript kitaplıklarından biri olan React'i öğreneceksiniz.
+React, JavaScript'in yapabildiği her şeyi yapabilir. React, **web sitelerine etkileşim eklemek, mobil uygulamalar, masaüstü uygulamaları, oyunlar** geliştirmek için kullanılabilir.
+Önümüzdeki 30 gün içinde çok şey öğreneceğinize ve programlama ve problem çözme becerilerinizin de önemli ölçüde gelişeceğine inanıyorum.
 
-I will use conversational English and less jargons to write this challenge. The content will be continuously updated. If you find a typo or grammar mistakes don't be surprised because I don't do any proof read before I publish it. I would recommend you to focus on the main message of the challenge instead of the English and some minor mistakes. I really appreciate if you send me pull requests for improvement and remember to pull first from master before you send pull requests. Most of the images I have used in this challenge came from 30DaysOfJavaScript challenge therefore you may need to rename file names and folders 30DaysOfReact.
-If you are good at arrays, loops, functions, objects, functional programming, destructuring and spreading and class then you will be able to follow the challenge properly. Otherwise, I strongly recommend you to check [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript).
+Bu meydan okumayı yazmak için konuşma İngilizcesi ve daha az jargon kullanacağım. İçerik sürekli güncellenecektir. Bir yazım hatası veya dil bilgisi hatası bulursanız şaşırmayın çünkü yayınlamadan önce herhangi bir düzeltme okuması yapmıyorum. İngilizce ve bazı küçük hatalar yerine meydan okumanın ana mesajına odaklanmanızı tavsiye ederim. Bana iyileştirme istekleri gönderirseniz gerçekten minnettar olurum ve çekme istekleri göndermeden önce master'dan çekmeyi unutmayın. Bu meydan okumada kullandığım resimlerin çoğu 30DaysOfJavaScript meydan okumasından geldi, bu nedenle 30DaysOfReact dosya adlarını ve klasörlerini yeniden adlandırmanız gerekebilir.
+Diziler, döngüler, işlevler, nesneler, işlevsel programlama, yok etme ve yayma ve sınıf konularında iyiyseniz, o zaman zorluğu doğru bir şekilde takip edebileceksiniz. Aksi takdirde, [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) kontrol etmenizi şiddetle tavsiye ederim.
 
-Before you dive into this course, you may check the [review](https://t.me/thirtydaysofreact/992) of 30 Days Of React.
+Bu kursa dalmadan önce 30 Günde React'ın [incelemesine](https://t.me/thirtydaysofreact/992) göz atabilirsiniz.
 
-## Requirements
+## Gereksinimler
 
-To get along with the challenge you need to have the following:
+Zorlukla başa çıkmak için aşağıdakilere sahip olmanız gerekir:
 
-1. Motivation
-2. A computer
-3. Internet
-4. A browser
-5. A code editor
-6. HTML, CSS and JavaScript intermediate level skill
+1. Motivasyon
+2. Bir bilgisayar
+3. İnternet
+4. Bir tarayıcı
+5. Bir kod düzenleyici
+6. HTML, CSS ve JavaScript orta seviye becerisi
 
-## How to Use Repo
+## Repo Nasıl Kullanılır
 
-### Star and Fork this Repo
+### Bu Repo'yu Yıldızla ve Fork'la
 
-Star this repo to support this work and Fork the repo to create your own copy to work from.
+Bu çalışmayı desteklemek için bu depoya yıldız ekleyin ve çalışmak üzere kendi kopyanızı oluşturmak için depoyu çatallayın.
 
-### Clone your Fork
+### Fork'unuzu klonlayın
 
-You should always work directly from your forked copy.
+Her zaman doğrudan fork kopyanızdan çalışmalısınız.
 
 ```bash
-# note that an `ssh` link is used here, but an `https` link will work the same
+# burada bir "ssh" bağlantısının kullanıldığını, ancak bir "https" bağlantısının aynı şekilde çalışacağını unutmayın.
 git clone git@github.com:username/30-Days-Of-React.git
 cd 30-Days-Of-React
 ```
 
-### Create a New Branch
+### Yeni Şube Oluştur
 
 To complete daily exercises, my suggestion is to create a separate branch to house your exercise folder or any other changes you make. This will keep your master branch clean at all times, which means your master will always be similar to the original master.
 
