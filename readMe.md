@@ -155,43 +155,43 @@ cd 30-Days-Of-React
 
 ### Yeni Şube Oluştur
 
-To complete daily exercises, my suggestion is to create a separate branch to house your exercise folder or any other changes you make. This will keep your master branch clean at all times, which means your master will always be similar to the original master.
+Günlük egzersizleri tamamlamak için önerim, egzersiz klasörünüzü veya yaptığınız diğer değişiklikleri barındıracak ayrı bir dal oluşturmanızdır. Bu, master dalınızı her zaman temiz tutacaktır, bu da master'ınızın her zaman orijinal master'a benzer olacağı anlamına gelir.
 
 ```bash
-git checkout -b exercise-solutions # `-b` creates the branch if it does not exist
+git checkout -b egzersiz-çözümleri # `-b`, mevcut değilse dalı oluşturur
 ```
 
-### Structure Exercise Solutions
+### Yapı Egzersiz Çözümleri
 
-In your new branch, you can use files/folders to structure your solutions to daily exercises
+Yeni şubenizde, günlük alıştırmalara çözümlerinizi yapılandırmak için dosya/klasör kullanabilirsiniz.
 
 ```bash
-mkdir -p solutions/day-01 # `-p` helps create nested directories
-touch solutions/day-01/level1.js # touch creates a file
+mkdir -p çözümleri/gün-01 # `-p` iç içe dizinler oluşturmaya yardımcı olur
+dokunmatik çözümler/gün-01/düzey 1.js # dokunma bir dosya oluşturur
 ```
 
-### Commit Exercise Solutions
+### Egzersiz Çözümlerini Taahhüt Edin
 
-Commit your solutions to your Fork
+Çözümlerinizi Fork'unuza teslim edin
 
 ```bash
 git add solutions/day-01/level1.js
 git commit -m "chore: exercise level1 complete"
-git push origin exercise-solutions # branch `exercise-solutions` was created earlier
+git push origin exercise-solutions # "egzersiz-çözümleri" dalı daha önce oluşturuldu
 ```
 
-### Update your Fork Daily
+### Çatalınızı Günlük Güncelleyin
 
-This repo will be updated daily throughout the month. When a new day's content becomes available, you can update your forked copy with the steps below.
+Bu repo ay boyunca günlük olarak güncellenecektir. Yeni bir günün içeriği kullanıma sunulduğunda, aşağıdaki adımlarla çatallı kopyanızı güncelleyebilirsiniz.
 
 ```bash
-# 1. switch to master branch
+# 1. ana şubeye geç
 git checkout master
-# 2. check if your local copy has a link to original `...Asabeneh/30-Days-Of-React.git`
+# 2. yerel kopyanızın orijinal `...Asabeneh/30-Days-Of-React.git` bağlantısına sahip olup olmadığını kontrol edin
 git remote -v
-# 3. if not, add a link to original, you can choose any name for the link or use `upstream`
-git remote add upstream git@github.com:Asabeneh/30-Days-Of-React.git
-# 4. check again to confirm link added
+# 3. değilse, orijinale bir bağlantı ekleyin, bağlantı için herhangi bir ad seçebilir veya 'yukarı akış' kullanabilirsiniz.
+git remote add upstream git@github.com/Eren-Seyfi/TR-30-Days-Of-React.git
+# 4. bağlantının eklendiğini onaylamak için tekrar kontrol edin
 git remote -v
 # 5. now you can fetch updates from original repo, assuming you named this `upstream`
 git fetch upstream
